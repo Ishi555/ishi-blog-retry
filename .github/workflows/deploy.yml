@@ -33,6 +33,11 @@ jobs:
       
       - name: Build
         run: cd playground && pnpm build
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: playground/dist
 
   deploy:
     needs: build
