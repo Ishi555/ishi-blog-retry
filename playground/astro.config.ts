@@ -16,20 +16,14 @@ export default defineConfig({
     charm({
       config: {
         lang: "en",
-        title: "Charm Theme",
+        title: "ishi blog",
         description: "A beautiful blog theme for Astro",
         side: {
-          title: "Charm Theme",
-          sub: "A blog theme for Astro",
-          bio: "Cupidatat ex id eiusmod aute do labore ea minim eu fugiat Lorem fugiat adipisicing.",
+          title: "ishi BLOG",
+          sub: "Ishi's blog. ",
+          bio: "Stay chill.",
         },
         licenseId: "CC0-1.0",
-        giscus: {
-          repo: "Yuhanawa/astro-charm",
-          repoId: "R_kgDOMk98JQ",
-          category: "Blog Post Comments",
-          categoryId: "DIC_kwDOMk98Jc4CljB_",
-        },
       },
       pages: {},
       overrides: {

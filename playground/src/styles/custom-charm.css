@@ -6,7 +6,7 @@
     &::before {
       content: "";
       /* image from https://civitai.com/images/4176963 */
-      background-image: url(./../assets/engagekiss.avif);
+      background-image: url(./../assets/mimikyu.png);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: right;
