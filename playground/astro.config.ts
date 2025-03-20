@@ -6,7 +6,6 @@ import playformCompress from "@playform/compress";
 export default defineConfig({
   prefetch: true,
   site: "https://ishi555.github.io/ishi-blog-retry/",
-  base: "/ishi-blog-retry",
 
   output: "static",
 
