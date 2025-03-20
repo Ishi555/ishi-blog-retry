@@ -6,6 +6,7 @@ import playformCompress from "@playform/compress";
 export default defineConfig({
   prefetch: true,
   site: "https://ishi555.github.io/ishi-blog-retry/",
+  base: "/ishi-blog-retry/",
 
   output: "static",
 
@@ -19,6 +20,15 @@ export default defineConfig({
           title: "ishi BLOG",
           sub: "Ishi's blog. ",
           bio: "Stay chill.",
+          navHome: {
+            title: "Home",
+            link: "/ishi-blog-retry/",
+            icon: {
+              default: "solar:file-text-broken",
+              hover: "solar:file-smile-outline",
+              active: "solar:file-smile-bold-duotone"
+            }
+          }
         },
         licenseId: "CC0-1.0",
       },
