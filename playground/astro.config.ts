@@ -1,16 +1,14 @@
 import { defineConfig } from "astro/config";
 import charm from "astro-charm";
-
 import pageInsight from "astro-page-insight";
 import playformCompress from "@playform/compress";
-import vercel from "@astrojs/vercel";
 
 export default defineConfig({
   prefetch: true,
-  site: "https://astro-charm.vercel.app/",
+  site: "https://ishi555.github.io/ishi-blog-retry/",
+  base: "/ishi-blog-retry",
 
   output: "static",
-  adapter: vercel(),
 
   integrations: [
     charm({
