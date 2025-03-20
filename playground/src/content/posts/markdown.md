@@ -5,6 +5,7 @@ updated: 2024-12-02
 description: A simple example of a Markdown blog post.
 tags: [Markdown, Demo]
 category: Examples
+hidden: true
 ---
 
 [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)

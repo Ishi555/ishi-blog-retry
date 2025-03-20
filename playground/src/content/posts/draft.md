@@ -1,24 +1,14 @@
 ---
-title: Draft Example
-published: 2024-05-02
-updated: 2024-12-27
-tags: [Demo, Draft]
-category: Examples
+title: The first post
+published: 2025-19-03
+updated: 2025-20-03
+tags: [First, Grand]
+category: A start
 draft: false
 ---
 
-## This Article is a Draft
+## This Article is the first one.
 
-This article is currently in a draft state and is not published. Therefore, it will not be visible to the general audience. The content is still a work in progress and may require further editing and review.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is rooted to latin from 45BC. It is used as dummy text. Like this: Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. See what I mean? Lorem ipsum was actually just lots of words in a different language that english, but people just used it as dummy text.
 
-When the article is ready for publication, you can update the "draft" field to "false" in the Frontmatter:
 
-```markdown
----
-title: Draft Example
-published: 2024-05-02
-tags: [Demo, Draft]
-category: Examples
-draft: true
----
-```

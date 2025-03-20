@@ -5,6 +5,7 @@ updated: 2024-12-22
 description: "Read more about Markdown features"
 tags: [Demo, Markdown, Feature]
 category: "Examples"
+hidden: true
 ---
 
 ## Table of contents

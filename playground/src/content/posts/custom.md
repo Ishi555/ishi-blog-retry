@@ -6,6 +6,7 @@ updated: 2025-02-02
 tags: [Example]
 category: customize
 image: "../../assets/customize_theme.svg"
+hidden: true
 ---
 
 ## CSS
