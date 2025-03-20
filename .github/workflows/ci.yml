@@ -28,7 +28,9 @@ jobs:
         run: pnpm install
       
       - name: Build
-        run: pnpm run playground:build
+        run: |
+          cd playground
+          pnpm build
       
       - name: Check
         run: pnpm run playground:check 
