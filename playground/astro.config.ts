@@ -22,13 +22,42 @@ export default defineConfig({
           bio: "Stay chill.",
           navHome: {
             title: "Home",
-            link: "/ishi-blog-retry/",
+            link: "/",
             icon: {
               default: "solar:file-text-broken",
               hover: "solar:file-smile-outline",
               active: "solar:file-smile-bold-duotone"
             }
-          }
+          },
+          nav: [
+            {
+              title: "About",
+              link: "/about/",
+              icon: {
+                default: "solar:user-id-broken",
+                hover: "solar:user-id-outline",
+                active: "solar:user-id-bold-duotone"
+              }
+            },
+            {
+              title: "Projects",
+              link: "/projects/",
+              icon: {
+                default: "solar:folder-with-files-broken",
+                hover: "solar:folder-with-files-outline",
+                active: "solar:folder-with-files-bold-duotone"
+              }
+            },
+            {
+              title: "Search",
+              link: "/search/",
+              icon: {
+                default: "solar:search-broken",
+                hover: "solar:search-outline",
+                active: "solar:search-bold-duotone"
+              }
+            }
+          ]
         },
         licenseId: "CC0-1.0",
       },

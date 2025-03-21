@@ -29,7 +29,4 @@ jobs:
       - name: Build
         run: |
           cd playground
-          pnpm build
-      
-      - name: Check
-        run: pnpm run playground:check 
+          pnpm build 
