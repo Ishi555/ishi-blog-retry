@@ -22,17 +22,17 @@ export default defineConfig({
           bio: "Stay chill.",
           navHome: {
             title: "Home",
-            link: "/",
+            link: "/ishi-blog-retry/",
             icon: {
               default: "solar:file-text-broken",
               hover: "solar:file-smile-outline",
               active: "solar:file-smile-bold-duotone"
             }
           },
-          nav: [
+          footer: [
             {
               title: "About",
-              link: "/about/",
+              link: "/ishi-blog-retry/about/",
               icon: {
                 default: "solar:user-id-broken",
                 hover: "solar:user-id-outline",
@@ -41,7 +41,7 @@ export default defineConfig({
             },
             {
               title: "Projects",
-              link: "/projects/",
+              link: "/ishi-blog-retry/projects/",
               icon: {
                 default: "solar:folder-with-files-broken",
                 hover: "solar:folder-with-files-outline",
@@ -50,7 +50,7 @@ export default defineConfig({
             },
             {
               title: "Search",
-              link: "/search/",
+              link: "/ishi-blog-retry/search/",
               icon: {
                 default: "solar:search-broken",
                 hover: "solar:search-outline",
