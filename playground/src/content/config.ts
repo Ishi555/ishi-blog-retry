@@ -5,16 +5,26 @@ const posts = defineCollection({
     title: z.string(),
     description: z.string(),
     pubDate: z.string(),
-    published: z.boolean(),
     category: z.string(),
-    tags: z.array(z.string()),
-    draft: z.boolean().optional().default(false),
-    image: z.string().optional(),
-    author: z.string().optional(),
-    readingTime: z.string().optional()
+    tags: z.array(z.string())
+  })
+});
+
+const specials = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    icon: z.object({
+      default: z.string(),
+      hover: z.string(),
+      active: z.string()
+    }),
+    published: z.string(),
+    updated: z.string(),
+    index: z.number()
   })
 });
 
 export const collections = {
-  posts
+  posts,
+  specials
 }; 
