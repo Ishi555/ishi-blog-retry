@@ -2,6 +2,7 @@
 title: "Hello World"
 description: "Welcome to my blog!"
 pubDate: "2024-03-21"
+published: true
 category: "Getting Started"
 tags: ["welcome", "first-post"]
 ---
