@@ -3,8 +3,11 @@ title: "Getting Started with Astro"
 description: "A beginner's guide to building with Astro"
 pubDate: "2024-03-21"
 published: true
+draft: false
 category: "Tutorials"
 tags: ["astro", "web-development", "tutorial"]
+author: "Ishi"
+readingTime: "3 min read"
 ---
 
 # Getting Started with Astro

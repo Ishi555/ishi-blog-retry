@@ -5,9 +5,13 @@ const posts = defineCollection({
     title: z.string(),
     description: z.string(),
     pubDate: z.string(),
-    published: z.boolean().default(true),
+    published: z.boolean(),
     category: z.string(),
-    tags: z.array(z.string())
+    tags: z.array(z.string()),
+    draft: z.boolean().optional().default(false),
+    image: z.string().optional(),
+    author: z.string().optional(),
+    readingTime: z.string().optional()
   })
 });
 
