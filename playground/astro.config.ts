@@ -60,6 +60,24 @@ export default defineConfig({
           ]
         },
         licenseId: "CC0-1.0",
+        categories: {
+          "Getting Started": {
+            description: "Getting started with the blog",
+            icon: {
+              default: "solar:rocket-broken",
+              hover: "solar:rocket-outline",
+              active: "solar:rocket-bold-duotone"
+            }
+          },
+          "Tutorials": {
+            description: "Step-by-step guides",
+            icon: {
+              default: "solar:book-broken",
+              hover: "solar:book-outline",
+              active: "solar:book-bold-duotone"
+            }
+          }
+        }
       },
       pages: {},
       overrides: {
