@@ -6,13 +6,13 @@ icon:
     hover: "solar:star-fall-outline",
     active: "solar:star-fall-bold-duotone",
   }
-published: 2024-11-30
-updated: 2024-11-30
+published: 2025-03-20
+updated: 2025-03-21
 disabled: true
 index: 9
 ---
 
-## Special Page
+## Special Events
 
-TBA
+None at the moment.
 

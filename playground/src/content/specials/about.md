@@ -17,7 +17,7 @@ Welcome to my blog! This is where you can learn more about me and my interests.
 
 ## Who I Am
 
-I'm a passionate developer who loves creating and sharing knowledge through this blog.
+I am someone who loves creating and sharing knowledge through this blog.
 
 ## What I Do
 
