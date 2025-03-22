@@ -3,11 +3,8 @@ title: "Hello World"
 description: "Welcome to my blog!"
 pubDate: "2024-03-21"
 published: true
-draft: false
 category: "Getting Started"
 tags: ["welcome", "first-post"]
-author: "Ishi"
-readingTime: "2 min read"
 ---
 
 # Hello World!
