@@ -22,7 +22,7 @@ export default defineConfig({
           bio: "Stay chill.",
           navHome: {
             title: "Home",
-            link: "/ishi-blog-retry/",
+            link: "/",
             icon: {
               default: "solar:file-text-broken",
               hover: "solar:file-smile-outline",
@@ -32,7 +32,7 @@ export default defineConfig({
           footer: [
             {
               title: "About",
-              link: "/ishi-blog-retry/about/",
+              link: "/about/",
               icon: {
                 default: "solar:user-id-broken",
                 hover: "solar:user-id-outline",
@@ -41,7 +41,7 @@ export default defineConfig({
             },
             {
               title: "Projects",
-              link: "/ishi-blog-retry/projects/",
+              link: "/projects/",
               icon: {
                 default: "solar:folder-with-files-broken",
                 hover: "solar:folder-with-files-outline",
@@ -50,7 +50,7 @@ export default defineConfig({
             },
             {
               title: "Search",
-              link: "/ishi-blog-retry/search/",
+              link: "/search/",
               icon: {
                 default: "solar:search-broken",
                 hover: "solar:search-outline",
@@ -63,10 +63,7 @@ export default defineConfig({
       },
       pages: {},
       overrides: {
-        components: {
-          // override components
-          // ShootingStar: "./src/components/ShootingStar.astro",
-        },
+        components: {},
         custom: {
           // it will be added to the end of `<head>`.
           CustomScriptComponent: "./src/components/CustomScriptComponent.astro",
